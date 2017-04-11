@@ -1,0 +1,26 @@
+.contain{
+  background-color: #ddd;
+  height: 400px;
+  width: 400px;
+  margin: auto;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+
+}
+.down{
+  height: 50px;
+  width: 80%;
+  background-color: #000;
+  color: #FFF;
+  display: flex;
+  font-size: 2rem;
+  font-weight: bold;
+  justify-content: center;
+  position: absolute;
+  bottom:0px;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+
+}
