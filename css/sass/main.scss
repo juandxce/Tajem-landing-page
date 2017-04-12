@@ -107,6 +107,14 @@ html{
   position: relative;
   nav .container{
     padding-top: 15px;
+    .navbar-header{
+      button{
+        background: none;
+      }
+      button:hover{
+        background: none;
+      }
+    }
   }
   .top-slider{
     h1{

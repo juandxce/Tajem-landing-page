@@ -100,6 +100,10 @@ html {
   position: relative; }
   #info nav .container {
     padding-top: 15px; }
+    #info nav .container .navbar-header button {
+      background: none; }
+    #info nav .container .navbar-header button:hover {
+      background: none; }
   #info .top-slider h1 {
     font-family: 'Playfair display', serif;
     color: #fff;
