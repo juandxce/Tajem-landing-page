@@ -99,7 +99,7 @@ html{
 
 /*info section styles*/
 #info{
-  max-height: 670px;
+
   height: 670px;
   background: linear-gradient(rgba(40, 29, 88, .9),rgba(40, 29, 88, .85)),
   url(../images/forest1.png);
@@ -450,6 +450,37 @@ html{
     }
   }
 
+}
+@media (max-width: 768px){
+  .navbar-inverse{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    .container{
+      display: block;
+      justify-content: flex-end;
+      position: relative;
+      width: 100%;
+      .navbar-header{
+        display: inline-block;
+        float: right;
+      }
+      img{
+        display: inline-block;
+        position: relative;
+      }
+    }
+  }
+  #clients{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .alignment{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
 }
 
 

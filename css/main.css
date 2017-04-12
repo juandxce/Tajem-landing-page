@@ -93,7 +93,6 @@ html {
 
 /*info section styles*/
 #info {
-  max-height: 670px;
   height: 670px;
   background: linear-gradient(rgba(40, 29, 88, 0.9), rgba(40, 29, 88, 0.85)), url(../images/forest1.png);
   background-size: cover;
@@ -436,6 +435,51 @@ html {
 @media (max-width: 780px) {
   #meet-our-team .border-gray {
     margin-bottom: 20px; } }
+
+@media (max-width: 768px) {
+  .navbar-inverse {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap; }
+    .navbar-inverse .container {
+      display: block;
+      -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+      justify-content: flex-end;
+      position: relative;
+      width: 100%; }
+      .navbar-inverse .container .navbar-header {
+        display: inline-block;
+        float: right; }
+      .navbar-inverse .container img {
+        display: inline-block;
+        position: relative; }
+  #clients {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    #clients .alignment {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center; } }
 
 /*Slider Styles*/
 .jk-slider {
