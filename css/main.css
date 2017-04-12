@@ -143,7 +143,30 @@ html {
 
 /*watch our story styles*/
 #watch-our-story {
-  max-width: 100vw; }
+  background: linear-gradient(rgba(40, 29, 88, 0.9), rgba(40, 29, 88, 0.85)), url(../images/city1.png);
+  background-size: cover;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 550px; }
+  #watch-our-story a {
+    font-size: 100px;
+    color: #fff; }
+  #watch-our-story p {
+    font-size: .857rem;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase; }
 
 /*expertice styles*/
 #expertise {
@@ -480,6 +503,24 @@ html {
       -webkit-justify-content: center;
       -ms-flex-pack: center;
       justify-content: center; } }
+
+/*modal-styles*/
+#modal-video h1 {
+  color: #FFF;
+  font-family: 'Playfair display', serif; }
+
+.modal-open #wrap {
+  -webkit-filter: blur(15px);
+  filter: blur(15px); }
+
+.modal-backdrop {
+  background: #281d58; }
+
+.close {
+  font-size: 50px;
+  display: block;
+  color: #fff;
+  opacity: .9; }
 
 /*Slider Styles*/
 .jk-slider {
