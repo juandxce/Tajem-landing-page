@@ -5,6 +5,7 @@ $withish: #c6c4c9;
 $pgrayish: #83818a;
 $fontTitles: 'Playfair display', serif;
 $mainFont: 'Roboto', sans-serif;
+$animateSpeed: .5s;
 
 /*document level styles*/
 *{
@@ -25,7 +26,7 @@ html{
   font-weight: bolder;
   padding: 14px;
   font-size: .7143rem;
-  transition: 0.5s;
+  transition: $animateSpeed;
 }
 .blue-button:hover{
   background: $turquoise;
@@ -39,7 +40,7 @@ html{
   font-weight: bolder;
   padding:13px 30px;
   font-size: .7143rem;
-  transition: 0.5s;
+  transition: $animateSpeed;
 }
 .tiny-hr{
   color: $withish;
@@ -100,14 +101,14 @@ html{
   }
 }
 nav{
-  transition: 0.5s;
+  transition: $animateSpeed;
 }
 nav:hover{
   background-color: rgba(40, 29, 88, .85);
 }
 
 #navbar-top{
-    transition: .5s;
+    transition: $animateSpeed;
   a{
     color: $white;
     text-transform: uppercase;
@@ -115,7 +116,7 @@ nav:hover{
     font-family: $mainFont;
     font-weight: 900;
     font-size: .643rem;
-    transition: .5s;
+    transition: $animateSpeed;
   }
   a:hover{
     color: $turquoise;
@@ -304,7 +305,7 @@ nav:hover{
     right: 0;
     color: #413d4b;
     text-decoration: none;
-    transition: 0.5s;
+    transition: $animateSpeed;
   }
   a:hover{
     color:$turquoise;
@@ -402,7 +403,7 @@ nav:hover{
   a{
     text-decoration: none;
     color: $white;
-    transition: .5s;
+    transition: $animateSpeed;
   }
   a:hover{
     color: $turquoise;
@@ -430,7 +431,7 @@ nav:hover{
     border: 1px solid $white;
     font-size: 15px;
     border-radius: 50%;
-    transition: 0.5s;
+    transition: $animateSpeed;
   }
   a:hover{
     color:rgba(40, 29, 88, 1);
@@ -455,7 +456,7 @@ nav:hover{
     padding: 0;
     margin: 0;
     border: none;
-    transition: .5s;
+    transition: $animateSpeed;
   }
   button:hover{
     background-color: rgba(255, 255, 255, 1);
@@ -626,7 +627,7 @@ nav:hover{
     border: none;
     margin-left: 7px;
     margin-right: 7px;
-    transition: .5s;
+    transition: $animateSpeed;
   }
   ol{
     .active{
