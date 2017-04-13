@@ -50,7 +50,7 @@
 			<div class="row">
 				<div class="col-sm-12">
 					<section class="jk-slider">
-						<div id="carousel-top" class="carousel slide" data-ride="carousel">
+						<div id="carousel-top" class="carousel slide custom-carousel" data-ride="carousel">
 							<ol class="carousel-indicators">
 								<li data-target="#carousel-top" data-slide-to="0" class="active"></li>
 								<li data-target="#carousel-top" data-slide-to="1"></li>
@@ -229,7 +229,76 @@
 		</div>
 	</section><!--end our-works-->
 	<section id="people">
-		<img src="images/quotationmarks.png" alt="cotation marks">
+		<img src="images/quotationmarks.png" class="quotation-marks" alt="cotation marks">
+		<div class="container top-slider">
+			<div class="row">
+				<div class="col-sm-12">
+					<section class="jk-slider">
+						<div id="carousel-bottom" class="carousel slide custom-carousel" data-ride="carousel">
+							<ol class="carousel-indicators">
+								<li data-target="#carousel-bottom" data-slide-to="0" class="active"><img class="img-responsive" src="images/person3.png" alt="selector"></li>
+								<li data-target="#carousel-bottom" data-slide-to="1"><img class="img-responsive" src="images/person3.png" alt="selector"></li>
+								<li data-target="#carousel-bottom" data-slide-to="2"><img class="img-responsive" src="images/person3.png" alt="selector"></li>
+								<li data-target="#carousel-bottom" data-slide-to="3"><img class="img-responsive" src="images/person3.png" alt="selector"></li>
+								<li data-target="#carousel-bottom" data-slide-to="4"><img class="img-responsive" src="images/person3.png" alt="selector"></li>
+							</ol>
+							<div class="carousel-inner">
+								<div class="item active hero">
+									<div class="row">
+										<div class="col-sm-10 col-sm-offset-1 slider-text">
+											<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+												It has survived not only five centuri</p>
+											<h3>JANE GALADRIEL</h3>
+											<span class="role">CEO TENGKUREP</span>
+										</div>
+									</div>
+								</div>
+								<div class="item hero">
+									<div class="row">
+										<div class="col-sm-10 col-sm-offset-1 slider-text">
+											<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+												It has survived not only five centuri</p>
+											<h3>JANE GALADRIEL</h3>
+											<span class="role">CEO TENGKUREP</span>
+										</div>
+									</div>
+								</div>
+								<div class="item hero">
+									<div class="row">
+										<div class="col-sm-10 col-sm-offset-1 slider-text">
+											<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+												It has survived not only five centuri</p>
+											<h3>JANE GALADRIEL</h3>
+											<span class="role">CEO TENGKUREP</span>
+										</div>
+									</div>
+								</div>
+								<div class="item hero">
+									<div class="row">
+										<div class="col-sm-10 col-sm-offset-1 slider-text">
+											<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+												It has survived not only five centuri</p>
+											<h3>JANE GALADRIEL</h3>
+											<span class="role">CEO TENGKUREP</span>
+										</div>
+									</div>
+								</div>
+								<div class="item hero">
+									<div class="row">
+										<div class="col-sm-10 col-sm-offset-1 slider-text">
+											<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+												It has survived not only five centuri</p>
+											<h3>JANE GALADRIEL</h3>
+											<span class="role">CEO TENGKUREP</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section><!--end jk-slider-->
+				</div>
+			</div>
+		</div><!--end container bottom-slider-->
 	</section><!--end pepople-->
 	<section id="clients">
 		<div class="container">
@@ -241,7 +310,7 @@
 						<input class="form-control" type="text" name="email" value="" placeholder="Email">
 						<input class="form-control" type="text" name="subject" value="" placeholder="Subject">
 						<textarea class="form-control" name="name" rows="8" cols="50" placeholder="Your Message"></textarea>
-						<button  class="blue-button form-control" type="button" name="button">SUBMIT</button>
+						<button  class="blue-button submit" type="button" name="button">SUBMIT</button>
 					</form>
 				</div>
 				<div class="col-sm-5 col-sm-offset-1 alignment">
@@ -271,24 +340,28 @@
 	<footer id="footer">
 		<div class="container">
 			<div class="row">
-				<section class="col-sm-4">
+				<section class="col-sm-4 col-xs-6">
 					<img src="images/logotop.png" alt="logo">
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci nulla quibusdam maxime. Eligendi, voluptatem aliquam perspiciatis.</p>
-					<ul class="separate">
+					<ul id="links-down" class="separate">
 						<li><a href="">HELP</a></li>
 						<li><a href="">TERMS &amp; CONDITIONS</a></li>
 						<li><a href="">PRIVACY</a></li>
 					</ul>
 				</section>
-				<section class="col-sm-4">
+				<section class="col-sm-4 col-xs-6">
 					<h3>OUR STUDIO</h3>
-					<img src="images/pin.png" alt="pinmark">
-					<span class="indentation"> voluptatibus assumenda doloremque magnam suscipit numquam, dicta quidem voluptates quo sequi animi alias, corporis ipsam, cumque consectetur architecto et ipsa vitae. <br></span>
+					<img class="indentation" src="images/pin.png" alt="pinmark">
+					<div class="separate-bottom">
+						<span> voluptatibus assumenda doloremque magnam suscipit numquam, dicta quidem voluptates quo sequi animi alias, corporis ipsam, cumque consectetur architecto et ipsa vitae. <br></span>
+					</div>
 					<img src="images/phonesmall.png" alt="phone img">
-					<span class="indentation">(+52) 55-00-00-00-00</span>
+					<div class="separate-bottom">
+						<span>(+52) 55-00-00-00-00</span>
+					</div>
 				</section>
 				<section class="col-sm-4">
-					<h3>STAY IN TOUCH</h3>
+					<h3 class="behind">STAY IN TOUCH</h3>
 					<div class="input-group" id="newsletter">
 						<input type="text" class="form-control newsletter-input " placeholder="Subscribe our newsletter" aria-describedby="newsletter">
 						<span class="input-group-btn">

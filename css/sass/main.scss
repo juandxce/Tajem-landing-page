@@ -8,6 +8,8 @@ html{
   overflow-x: hidden;
 }
 /*general styles*/
+
+/*makes all the buttons  without background and in that blueyish color ;3*/
 .blue-button{
   background: none;
   color: #03d4c8;
@@ -16,13 +18,21 @@ html{
   padding: 14px;
   font-size: .7143rem;
   transition: 0.5s;
-
 }
 .blue-button:hover{
   background: rgba(3, 212, 200, .8);
   color: #FFF;
 }
-
+/*the blue-button for submit*/
+.submit{
+  background: none;
+  color: #03d4c8;
+  border: 1px solid #03d4c8;
+  font-weight: bolder;
+  padding:13px 30px;
+  font-size: .7143rem;
+  transition: 0.5s;
+}
 .tiny-hr{
   color: #c6c4c9;
   border: 1px solid #c6c4c9;
@@ -99,7 +109,7 @@ html{
 
 /*info section styles*/
 #info{
-  height: 670px;
+  min-height: 670px;
   background: linear-gradient(rgba(40, 29, 88, .9),rgba(40, 29, 88, .85)),
   url(../images/forest1.png);
   background-size: cover;
@@ -145,7 +155,6 @@ html{
 #our-story{
   padding-top: 67px;
   padding-bottom: 70px;
-
   .col-md-5{
       display: flex;
       align-items: center;
@@ -313,8 +322,10 @@ html{
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
-
+  flex-direction: column;
+  .quotation-marks{
+    padding-top: 67px;
+  }
 }
 
 /*clients styles*/
@@ -361,7 +372,6 @@ html{
   }
   img{
     display: inline-block;
-    padding-bottom: 25px;
   }
   ul{
     list-style-type: none;
@@ -438,7 +448,12 @@ html{
   padding-top: 67px;
 }
 .indentation{
-  margin-left: 50px;
+  transform: translate(0%, 120%);
+}
+.separate-bottom{
+  display: inline-block;
+  padding-bottom: 14px;
+  padding-left: 25px;
 }
 .copyright{
   text-align: right;
@@ -495,9 +510,37 @@ html{
       justify-content: center;
     }
   }
+  #newsletter{
+    max-width: 400px;
+    input{
+      max-width: none;
+    }
+  }
+  #social-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .behind{
+    position: relative;
+    z-index: -1;
+  }
+  #links-down{
+    display: flex;
+
+    justify-content: flex-start;
+    flex-direction: column;
+    li{
+      padding-top:5px;
+      padding-bottom: 5px;
+    }
+  }
 }
-
-
+@media (max-width:370px) {
+  #people{
+  display: none;
+  }
+}
 
 /*modal-styles*/
 #modal-video{
@@ -526,8 +569,6 @@ html{
 
 
 /*Slider Styles*/
-
-
 .jk-slider{
     width:100%;
 }
@@ -536,6 +577,45 @@ html{
     background-color: #03d4c8;
     border: 1px solid #03d4c8;
   }
+  li:hover{
+    background-color: #03d4c8;
+  }
+}
+#carousel-bottom{
+  .hero{
+    padding-top: 45px;
+    height: 350px;
+  }
+  h3{
+    font-size: .7143rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: #fff;
+  }
+  p{
+    color: #bfbcc9;
+    font-size: .857rem;
+  }
+  span{
+    color: #bfbcc9;
+    font-size: .7143rem;
+  }
+  ol li{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    border: none;
+    margin-left: 7px;
+    margin-right: 7px;
+    transition: .5s;
+  }
+  ol{
+    .active{
+      width: 70px;
+      height: 70px;
+    }
+  }
+
 }
 /*          Hero Headers        */
 /********************************/
