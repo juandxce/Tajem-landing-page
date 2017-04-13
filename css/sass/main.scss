@@ -333,6 +333,9 @@ html{
   flex-direction: column;
   .quotation-marks{
     padding-top: 67px;
+    /*fix for fireflox not displaying it*/
+    z-index: 2;
+    width: 32px;
   }
 }
 

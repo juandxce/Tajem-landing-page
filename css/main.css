@@ -326,7 +326,10 @@ html {
   -ms-flex-direction: column;
   flex-direction: column; }
   #people .quotation-marks {
-    padding-top: 67px; }
+    padding-top: 67px;
+    /*fix for fireflox not displaying it*/
+    z-index: 2;
+    width: 32px; }
 
 /*clients styles*/
 #clients {
