@@ -87,7 +87,6 @@ html{
 
 /*navbar styles*/
 .navbar-inverse{
-
   background: none;
   border: none;
   .container{
@@ -100,7 +99,15 @@ html{
     }
   }
 }
+nav{
+  transition: 0.5s;
+}
+nav:hover{
+  background-color: rgba(40, 29, 88, .85);
+}
+
 #navbar-top{
+    transition: .5s;
   a{
     color: $white;
     text-transform: uppercase;
@@ -115,11 +122,12 @@ html{
   }
 }
 
+
 /*info section styles*/
 #info{
   min-height: 670px;
   background: linear-gradient($layer,$layer),
-  url(../images/forest1.jpg);
+  url(../images/forest1.jpg), ;
   background-size: cover;
   position: relative;
   nav .container{

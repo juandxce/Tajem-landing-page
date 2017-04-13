@@ -90,17 +90,24 @@ html {
       position: absolute;
       left: 0; }
 
-#navbar-top a {
-  color: #fff;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-family: "Roboto", sans-serif;
-  font-weight: 900;
-  font-size: .643rem;
-  transition: .5s; }
+nav {
+  transition: 0.5s; }
 
-#navbar-top a:hover {
-  color: #03d4c8; }
+nav:hover {
+  background-color: rgba(40, 29, 88, 0.85); }
+
+#navbar-top {
+  transition: .5s; }
+  #navbar-top a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: .643rem;
+    transition: .5s; }
+  #navbar-top a:hover {
+    color: #03d4c8; }
 
 /*info section styles*/
 #info {
