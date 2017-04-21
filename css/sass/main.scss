@@ -104,7 +104,7 @@ nav{
   transition: $animateSpeed;
 }
 nav:hover{
-  background-color: rgba(40, 29, 88, .85);
+  background-color: $layer;
 }
 
 #navbar-top{
